@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import ImageSearch from "./Components/ImageSearch";
 import ImageCard from "./Components/ImageCard";
+// import Footer from "./Components/Footer";
 function App() {
   const [Images, setImages] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
@@ -32,6 +33,8 @@ function App() {
           ))}
         </div>
       )}
+
+      {/* <Footer/> */}
     </div>
   );
 }
